@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.all-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D5D2D2;
+}
+
+.logo {
+    width: 150px;
+    padding: 12px;
+}
+
+
+/* .menu {} */
+
+.menu ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.menu ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* header end  */
+/* banner start  */
+.main-banner {
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.digital-color {
+    color: red;
+}
+
+.main-banner h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+.main-banner p {
+    width: 623px;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.color-btn {
+
+    font-size: 17px;
+    padding: 10px 14px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+
+.no-color-btn {
+    font-size: 17px;
+    padding: 10px 14px;
+    border: none;
+    background-color: #F0F0F0;
+    color: black;
+    margin-right: 10px;
+}
+
+.all-btn {
+    width: 300px;
+    margin: 45px auto;
+}
