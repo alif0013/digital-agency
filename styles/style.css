@@ -138,15 +138,10 @@ body {
 .service-btn {
 
     font-size: 18px;
-
     background-color: white;
-
     border: none;
-
     padding: 10px 14px;
-
     border-radius: 25px;
-
     margin-bottom: 27px;
 }
 
@@ -178,4 +173,40 @@ body {
     gap: 15px;
     justify-content:end;
     margin: 0 70px;
+}
+.img-with-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+}
+
+.details-btn{
+    padding: 0px 25px;
+    border-left: 1px solid rgb(245, 44, 44);
+}
+.author-info {
+    margin-top: 30px;
+    
+}
+.jhon-img{
+    margin: 20px 5px;
+}
+.author-img{
+    margin-right: 15px;
+}
+.author-img img{
+    width: 67px;
+    border-radius: 50%;
+}
+.jhon-img{
+    display: flex;
+    align-items: center;
+}
+.more-btn{
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 25px;
 }
